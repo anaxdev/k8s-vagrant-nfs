@@ -9,7 +9,7 @@ Setup a default StorageClass that supports the dynamic provisioniong of PV (Pers
 ## Deployment
 
 ```sh
-kubectl create -f class.yaml
+kubectl create -f storageclass.yaml
 kubectl create -f rbac.yaml
 kubectl create -f deployment.yaml
 ```
